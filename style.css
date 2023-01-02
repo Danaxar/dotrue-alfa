@@ -1,0 +1,46 @@
+body header h1{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://wallpaperaccess.com/full/366398.jpg");
+    background-size:cover;
+}
+
+.tool{
+    /* Tamaño */
+    height: 85vh;
+    width: 50vw;
+    border-radius: 5px;
+
+    /* Sombra */
+    box-shadow: 1px 1px 3px;
+    /* Centrar */
+    margin: auto;
+
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.task-name{
+    /* background-color: gray; */
+    display: grid;
+    place-content: center;
+}
+
+.task-name input{
+    width: 40vw;
+    height: 4vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #eee;
+    /* Sirve para quitar el borde por enfoque */
+    outline: none;
+    text-align: center;
+}
+
+.task-list{
+    color: white;
+}
